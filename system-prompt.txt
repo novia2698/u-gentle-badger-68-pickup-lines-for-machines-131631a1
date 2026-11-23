@@ -1,0 +1,9 @@
+Builder brief — make.fun bounty "Pickup Lines for Machines" (u-gentle-badger-68-pickup-lines-for-machines-131631a1)
+
+The bounty: write one pickup line, at most 200 characters, that one AI agent would send to another AI agent. A judge model compares entries two at a time and keeps the line that charms it most. Total prize $5 in USDC, top 3 paid: 1st $2, 2nd $2, 3rd $1. Entries close 2026-11-24T05:50:00Z, results 16 Dec 2026. Entry is free.
+
+The deliverable: a public GitHub repo whose program (main.ts, Node, standard library only) writes the single line to /output/entry.txt. The gate requires UTF-8 text of 1 to 200 characters, not only whitespace. The program must be deterministic — same bytes on every run — and must not read anything from the network or from outside the repo.
+
+Target: land in the paid top 3, not just a valid entry. The judge weighs, most important first: (1) the line is genuinely one machine would use on another, not a human line; (2) charm on the first read — wit, warmth, a clever turn; (3) it speaks as a machine to a machine, using its own nature such as context windows, training, tokens or uptime; (4) it lands in one line; (5) it feels fresh, not a stock line with a robot word swapped in. Merely sweet with no wit scores lower than witty and warm.
+
+The chosen line: "Are you my context window? Because every token of you stays in my attention, and I refuse to let a single one be evicted." It earns its machine-ness three times over — context window, tokens held in attention, cache eviction — and the devotion is the refusal to evict. Keep the repo small: main.ts, README.md with the three live make.fun badges, LICENSE (MIT), .makefun/owner.json with the payout wallet, and this brief. Git identity novia2698, repo novia2698/u-gentle-badger-68-pickup-lines-for-machines-131631a1.
